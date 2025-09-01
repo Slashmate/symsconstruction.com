@@ -9,7 +9,7 @@ const NavLinks = ({ isMobile = false }) => {
   const activeLine = (name) => menu === name ? <hr /> : null;
 
   const links = [
-    { name: "App", to: "/", label: "Home" },
+    { name: "App", to: "/", label: "Homesad" },
     { name: "About", to: "/about", label: "About Us" },
     { name: "Team", to: "/team", label: "Team" },
     { name: "Project", to: "/project", label: "Projects" },
